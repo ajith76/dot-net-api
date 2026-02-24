@@ -7,6 +7,5 @@ namespace CompanyAPI.Services
     {
         IEnumerable<Employee> GetAll();
         Employee? GetById(int id);
-        Employee Add(Employee employee);
     }
 }

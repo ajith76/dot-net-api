@@ -31,3 +31,4 @@ D:\projectHub\dot-net\angular-api\obj\Debug\net8.0\refint\angular-api.dll
 D:\projectHub\dot-net\angular-api\obj\Debug\net8.0\angular-api.pdb
 D:\projectHub\dot-net\angular-api\obj\Debug\net8.0\angular-api.genruntimeconfig.cache
 D:\projectHub\dot-net\angular-api\obj\Debug\net8.0\ref\angular-api.dll
+D:\projectHub\dot-net\angular-api\obj\Debug\net8.0\angular-api.sourcelink.json

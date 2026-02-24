@@ -35,13 +35,7 @@ namespace CompanyAPI.Controllers
             return Ok(emp);
         }
 
-        [HttpPost]
-        public IActionResult AddEmployee([FromBody] Employee employee)
-        {
-            if (employee == null) return BadRequest();
-            var created = _service.Add(employee);
-            return CreatedAtAction(nameof(GetEmployeeById), new { id = created.EmployeeId }, created);
-        }
+        // POST endpoint removed per request.
 
     }
 }

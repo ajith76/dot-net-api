@@ -31,15 +31,6 @@ namespace CompanyAPI.Services
             }
         }
 
-        public Employee Add(Employee employee)
-        {
-            lock (_lock)
-            {
-                var nextId = _employees.Any() ? _employees.Max(e => e.EmployeeId) + 1 : 1;
-                employee.EmployeeId = nextId;
-                _employees.Add(employee);
-                return employee;
-            }
-        }
+        // Add method removed; service is read-only in this demo.
     }
 }
